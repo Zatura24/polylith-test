@@ -3,9 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-      "@poly/amazing-app": "workspace:",
-      "@poly/server": "workspace:",
-      "@poly/utils": "workspace:"
+      "@poly/amazing-app": "*",
+      "@poly/server": "*",
+      "@poly/utils": "*"
   },
   "devDependencies": {
     "@rsbuild/core": "^1.5.17",

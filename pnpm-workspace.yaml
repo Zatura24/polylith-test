@@ -1,9 +1,0 @@
-packages:
-  - components/*
-  - bases/*
-  - projects/*
-
-onlyBuiltDependencies:
-  - core-js
-
-nodeLinker: hoisted
