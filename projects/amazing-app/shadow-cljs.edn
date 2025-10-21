@@ -3,6 +3,7 @@
  :js-options {:js-package-dirs ["node_modules" "../../node_modules"]}
 
  :builds {:app {:target :esm
-                :output-dir "dist"
+                :output-dir "target"
                 :runtime :node
+                :js-options {:js-provider :import}
                 :modules {:server {:init-fn dev.jannick.amazing-app.core/init}}}}}
