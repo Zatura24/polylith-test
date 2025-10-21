@@ -4,9 +4,10 @@
 
                               poly/amazing-app {:local/root "bases/amazing-app"}
 
-                              org.clojure/clojure {:mvn/version "1.12.0"}}}
+                              org.clojure/clojure {:mvn/version "1.12.2"}}}
 
-           :test {:extra-paths []
+           :test {:extra-paths ["components/server/test"
+                                "bases/amazing-app/test"]
 
                   :extra-deps {}}
 

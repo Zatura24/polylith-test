@@ -1,0 +1,8 @@
+{:deps {poly/server {:local/root "../../components/server"}
+
+        poly/amazing-app {:local/root "../../bases/amazing-app"}
+
+        org.clojure/clojure {:mvn/version "1.12.2"}}
+
+ :aliases {:test {:extra-paths []
+                  :extra-deps  {}}}}
