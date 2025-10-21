@@ -2,11 +2,10 @@
   "name": "amazing-app",
   "version": "0.0.0",
   "private": true,
+  "type": "module",
   "dependencies": {
-      "@poly/amazing-app": "*",
-      "@poly/server": "*",
-      "@poly/utils": "*"
   },
   "devDependencies": {
+      "shadow-cljs": "3.2.1"
   }
 }

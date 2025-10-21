@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
+      "qs": "5.2.1"
   },
   "devDependencies": {
   }

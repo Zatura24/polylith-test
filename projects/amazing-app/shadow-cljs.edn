@@ -1,0 +1,8 @@
+{:deps {:aliases [:dev :test]}
+
+ :js-options {:js-package-dirs ["node_modules" "../../node_modules"]}
+
+ :builds {:app {:target :esm
+                :output-dir "dist"
+                :runtime :node
+                :modules {:server {:init-fn dev.jannick.amazing-app.core/init}}}}}
