@@ -2,6 +2,8 @@
 
                  :extra-deps {poly/server {:local/root "components/server"}
 
+                              poly/amazing-app {:local/root "bases/amazing-app"}
+
                               org.clojure/clojure {:mvn/version "1.12.0"}}}
 
            :test {:extra-paths []
