@@ -4,7 +4,8 @@
   "private": true,
   "dependencies": {
       "@poly/amazing-app": "*",
-      "@poly/server": "*"
+      "@poly/server": "*",
+      "@poly/utils": "*"
   },
   "devDependencies": {
   }
