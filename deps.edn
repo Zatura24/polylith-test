@@ -1,0 +1,12 @@
+{:deps {}
+
+ :aliases {:dev {:extra-paths ["development/src"]
+
+                 :extra-deps {}}
+
+           :test {:extra-paths []
+
+                  :extra-deps {}}
+
+           :poly {:extra-deps {polylith/clj-poly {:mvn/version "0.3.30"}}
+                  :main-opts  ["-m" "polylith.clj.core.poly-cli.core"]}}}
