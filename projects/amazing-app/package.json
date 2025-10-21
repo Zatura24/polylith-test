@@ -2,7 +2,11 @@
   "name": "@jannick/amazing-app",
   "version": "0.0.0",
   "private": true,
-  "type": "module",
+  "dependencies": {
+      "@poly/amazing-app": "workspace:",
+      "@poly/server": "workspace:",
+      "@poly/utils": "workspace:"
+  },
   "devDependencies": {
     "@rsbuild/core": "^1.5.17",
     "@rsdoctor/rspack-plugin": "^1.3.3",
