@@ -4,6 +4,7 @@
     [dev.jannick.server.interface :as server]))
 
 ;; just a simple change
+;; just a fimple hotfix comment
 
 (defn ^:export init []
   (js/console.log "Utils lib:")
