@@ -3,6 +3,8 @@
     [dev.jannick.utils.interface :as utils]
     [dev.jannick.server.interface :as server]))
 
+;; just a simple change
+
 (defn ^:export init []
   (js/console.log "Utils lib:")
   (->
